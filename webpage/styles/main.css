@@ -1,0 +1,14 @@
+@import "/webpage/styles/nav_bar.css";
+@import "/webpage/styles/styles.css";
+
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    background-color: #e5e7ea;
+}
+
+body{
+    margin: 0pt auto;
+    border: solid;
+    border-color: #e5e7ea;
+}

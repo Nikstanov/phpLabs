@@ -1,0 +1,72 @@
+@import "/webpage/styles/main.css";
+
+.signInBody{
+    margin: 10pt;
+    background-color: #e5e7ea;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 5ch;
+    border: solid;
+}
+
+.signInBody h1{
+    font-size: 3ch;
+}
+
+.signInBody img{
+    width: 100%;
+}
+
+.formPart{
+    margin-bottom: 10pt;
+    width: 400pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;  
+    height: 3em; 
+}
+
+.formPart input{
+    text-align: center;
+    height: 20pt;
+    width: 100%;
+    border-radius: 10pt;
+}
+
+.signInBody button {
+    margin-bottom: 5pt;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.signInBody button:hover {
+    background-color: rgb(45, 42, 42);
+}
+
+.signInBody button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 800px) {
+    .formPart{
+        width: auto;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .signInBody{
+        border: none;
+        border-bottom: solid;
+    }
+}
